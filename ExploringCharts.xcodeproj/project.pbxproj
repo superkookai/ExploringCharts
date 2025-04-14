@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF2496CD2DACACCB009838F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2496C92DACACCB009838F2 /* Assets.xcassets */; };
+		EF2496CE2DACACCB009838F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496CA2DACACCB009838F2 /* ContentView.swift */; };
+		EF2496CF2DACACCB009838F2 /* ExploringChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496CB2DACACCB009838F2 /* ExploringChartsApp.swift */; };
+		EF2496D52DACAD6F009838F2 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496D42DACAD6F009838F2 /* Color+Ext.swift */; };
+		EF2496D92DACAE6F009838F2 /* ColorfulButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496D82DACAE6F009838F2 /* ColorfulButtonView.swift */; };
+		EF2496DB2DACAE9F009838F2 /* RandomArcFromColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496DA2DACAE9F009838F2 /* RandomArcFromColorListView.swift */; };
+		EF2496DD2DACAEBF009838F2 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496DC2DACAEBF009838F2 /* ArcView.swift */; };
+		EF2496DF2DACAEE1009838F2 /* TestColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496DE2DACAEE1009838F2 /* TestColorButtonView.swift */; };
+		EF2496E22DACC5EE009838F2 /* ChartDemo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF2496BB2DACACC1009838F2 /* ExploringCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploringCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2496C92DACACCB009838F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2496CA2DACACCB009838F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF2496CB2DACACCB009838F2 /* ExploringChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploringChartsApp.swift; sourceTree = "<group>"; };
+		EF2496D42DACAD6F009838F2 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		EF2496D82DACAE6F009838F2 /* ColorfulButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulButtonView.swift; sourceTree = "<group>"; };
+		EF2496DA2DACAE9F009838F2 /* RandomArcFromColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomArcFromColorListView.swift; sourceTree = "<group>"; };
+		EF2496DC2DACAEBF009838F2 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		EF2496DE2DACAEE1009838F2 /* TestColorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorButtonView.swift; sourceTree = "<group>"; };
+		EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemo2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF2496BD2DACACC1009838F2 /* ExploringCharts */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExploringCharts;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF2496B82DACACC1009838F2 /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		EF2496B22DACACC1009838F2 = {
 			isa = PBXGroup;
 			children = (
-				EF2496BD2DACACC1009838F2 /* ExploringCharts */,
+				EF2496CC2DACACCB009838F2 /* ExploringCharts */,
 				EF2496BC2DACACC1009838F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,78 @@
 				EF2496BB2DACACC1009838F2 /* ExploringCharts.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2496CC2DACACCB009838F2 /* ExploringCharts */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496D32DACAD51009838F2 /* Extension */,
+				EF2496D22DACAD45009838F2 /* Model */,
+				EF2496D12DACAD32009838F2 /* ViewModel */,
+				EF2496D02DACAD2C009838F2 /* View */,
+				EF2496CA2DACACCB009838F2 /* ContentView.swift */,
+				EF2496CB2DACACCB009838F2 /* ExploringChartsApp.swift */,
+				EF2496C92DACACCB009838F2 /* Assets.xcassets */,
+			);
+			path = ExploringCharts;
+			sourceTree = "<group>";
+		};
+		EF2496D02DACAD2C009838F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496E02DACC5C4009838F2 /* Demo 2 */,
+				EF2496D62DACAE38009838F2 /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF2496D12DACAD32009838F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF2496D22DACAD45009838F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF2496D32DACAD51009838F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496D42DACAD6F009838F2 /* Color+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF2496D62DACAE38009838F2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496D72DACAE4A009838F2 /* Colorful Button */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EF2496D72DACAE4A009838F2 /* Colorful Button */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496D82DACAE6F009838F2 /* ColorfulButtonView.swift */,
+				EF2496DA2DACAE9F009838F2 /* RandomArcFromColorListView.swift */,
+				EF2496DC2DACAEBF009838F2 /* ArcView.swift */,
+				EF2496DE2DACAEE1009838F2 /* TestColorButtonView.swift */,
+			);
+			path = "Colorful Button";
+			sourceTree = "<group>";
+		};
+		EF2496E02DACC5C4009838F2 /* Demo 2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */,
+			);
+			path = "Demo 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +144,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF2496BD2DACACC1009838F2 /* ExploringCharts */,
 			);
 			name = ExploringCharts;
 			packageProductDependencies = (
@@ -109,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2496CD2DACACCB009838F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2496D92DACAE6F009838F2 /* ColorfulButtonView.swift in Sources */,
+				EF2496DB2DACAE9F009838F2 /* RandomArcFromColorListView.swift in Sources */,
+				EF2496CE2DACACCB009838F2 /* ContentView.swift in Sources */,
+				EF2496E22DACC5EE009838F2 /* ChartDemo2View.swift in Sources */,
+				EF2496DD2DACAEBF009838F2 /* ArcView.swift in Sources */,
+				EF2496DF2DACAEE1009838F2 /* TestColorButtonView.swift in Sources */,
+				EF2496CF2DACACCB009838F2 /* ExploringChartsApp.swift in Sources */,
+				EF2496D52DACAD6F009838F2 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
