@@ -16,6 +16,14 @@
 		EF2496DD2DACAEBF009838F2 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496DC2DACAEBF009838F2 /* ArcView.swift */; };
 		EF2496DF2DACAEE1009838F2 /* TestColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496DE2DACAEE1009838F2 /* TestColorButtonView.swift */; };
 		EF2496E22DACC5EE009838F2 /* ChartDemo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */; };
+		EF2496E52DACDD88009838F2 /* ChartDemo3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496E42DACDD88009838F2 /* ChartDemo3View.swift */; };
+		EF2496E72DACDE0B009838F2 /* DataFileDemo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496E62DACDE0B009838F2 /* DataFileDemo3.swift */; };
+		EF2496EA2DACEBC7009838F2 /* BarChartHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496E92DACEBC7009838F2 /* BarChartHorizontalView.swift */; };
+		EF2496EC2DACEBDE009838F2 /* LineChartHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496EB2DACEBDE009838F2 /* LineChartHorizontalView.swift */; };
+		EF2496EE2DACEBF3009838F2 /* AreaChartHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496ED2DACEBF3009838F2 /* AreaChartHorizontalView.swift */; };
+		EF2496F02DACEC02009838F2 /* BarChartVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496EF2DACEC02009838F2 /* BarChartVerticalView.swift */; };
+		EF2496F22DACEC12009838F2 /* LineChartVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496F12DACEC12009838F2 /* LineChartVerticalView.swift */; };
+		EF2496F42DACEC20009838F2 /* AreaChartVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2496F32DACEC20009838F2 /* AreaChartVerticalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,14 @@
 		EF2496DC2DACAEBF009838F2 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		EF2496DE2DACAEE1009838F2 /* TestColorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorButtonView.swift; sourceTree = "<group>"; };
 		EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemo2View.swift; sourceTree = "<group>"; };
+		EF2496E42DACDD88009838F2 /* ChartDemo3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemo3View.swift; sourceTree = "<group>"; };
+		EF2496E62DACDE0B009838F2 /* DataFileDemo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFileDemo3.swift; sourceTree = "<group>"; };
+		EF2496E92DACEBC7009838F2 /* BarChartHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartHorizontalView.swift; sourceTree = "<group>"; };
+		EF2496EB2DACEBDE009838F2 /* LineChartHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartHorizontalView.swift; sourceTree = "<group>"; };
+		EF2496ED2DACEBF3009838F2 /* AreaChartHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartHorizontalView.swift; sourceTree = "<group>"; };
+		EF2496EF2DACEC02009838F2 /* BarChartVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartVerticalView.swift; sourceTree = "<group>"; };
+		EF2496F12DACEC12009838F2 /* LineChartVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartVerticalView.swift; sourceTree = "<group>"; };
+		EF2496F32DACEC20009838F2 /* AreaChartVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartVerticalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 		EF2496D02DACAD2C009838F2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EF2496E32DACDD5E009838F2 /* Demo 3 */,
 				EF2496E02DACC5C4009838F2 /* Demo 2 */,
 				EF2496D62DACAE38009838F2 /* Component */,
 			);
@@ -91,6 +108,7 @@
 		EF2496D22DACAD45009838F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF2496E62DACDE0B009838F2 /* DataFileDemo3.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +146,28 @@
 				EF2496E12DACC5EE009838F2 /* ChartDemo2View.swift */,
 			);
 			path = "Demo 2";
+			sourceTree = "<group>";
+		};
+		EF2496E32DACDD5E009838F2 /* Demo 3 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496E82DACEB93009838F2 /* Chart View */,
+				EF2496E42DACDD88009838F2 /* ChartDemo3View.swift */,
+			);
+			path = "Demo 3";
+			sourceTree = "<group>";
+		};
+		EF2496E82DACEB93009838F2 /* Chart View */ = {
+			isa = PBXGroup;
+			children = (
+				EF2496E92DACEBC7009838F2 /* BarChartHorizontalView.swift */,
+				EF2496EB2DACEBDE009838F2 /* LineChartHorizontalView.swift */,
+				EF2496ED2DACEBF3009838F2 /* AreaChartHorizontalView.swift */,
+				EF2496EF2DACEC02009838F2 /* BarChartVerticalView.swift */,
+				EF2496F12DACEC12009838F2 /* LineChartVerticalView.swift */,
+				EF2496F32DACEC20009838F2 /* AreaChartVerticalView.swift */,
+			);
+			path = "Chart View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,14 +242,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2496F22DACEC12009838F2 /* LineChartVerticalView.swift in Sources */,
 				EF2496D92DACAE6F009838F2 /* ColorfulButtonView.swift in Sources */,
+				EF2496EA2DACEBC7009838F2 /* BarChartHorizontalView.swift in Sources */,
 				EF2496DB2DACAE9F009838F2 /* RandomArcFromColorListView.swift in Sources */,
+				EF2496F02DACEC02009838F2 /* BarChartVerticalView.swift in Sources */,
+				EF2496E52DACDD88009838F2 /* ChartDemo3View.swift in Sources */,
+				EF2496F42DACEC20009838F2 /* AreaChartVerticalView.swift in Sources */,
 				EF2496CE2DACACCB009838F2 /* ContentView.swift in Sources */,
 				EF2496E22DACC5EE009838F2 /* ChartDemo2View.swift in Sources */,
 				EF2496DD2DACAEBF009838F2 /* ArcView.swift in Sources */,
+				EF2496EE2DACEBF3009838F2 /* AreaChartHorizontalView.swift in Sources */,
 				EF2496DF2DACAEE1009838F2 /* TestColorButtonView.swift in Sources */,
 				EF2496CF2DACACCB009838F2 /* ExploringChartsApp.swift in Sources */,
+				EF2496E72DACDE0B009838F2 /* DataFileDemo3.swift in Sources */,
 				EF2496D52DACAD6F009838F2 /* Color+Ext.swift in Sources */,
+				EF2496EC2DACEBDE009838F2 /* LineChartHorizontalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
